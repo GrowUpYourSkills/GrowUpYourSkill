@@ -8,6 +8,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', views.index, name = 'Home' ),
+    path('https://growupyourskills.github.io/GrowUpYourSkill/', views.index, name = 'Home' ),
     
     path('home', views.index, name = 'Home' ),
 
