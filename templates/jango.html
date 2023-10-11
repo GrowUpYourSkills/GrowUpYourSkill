@@ -1,0 +1,226 @@
+{% extends "base.html" %}
+
+{% block title %} Django development {% endblock title %}
+{% block css %}
+<style>
+    body {
+        text-align: center;
+        padding-bottom: 1%;
+    }
+
+    img {
+        padding-top: 50px;
+        width: 50%;
+        height: 50vh;
+    }
+
+    .detail {
+        background-color: rgb(211, 211, 246);
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 1%;
+    }
+
+    p {
+        font-size: 50px;
+        text-align: justify;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+
+    }
+
+    h1 {
+        font-size: 60px;
+        color: rgb(7, 181, 22);
+        padding-bottom: 1%;
+
+    }
+
+    ul {
+        text-align: left;
+        font-size: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1%;
+        color: rgb(9, 44, 221);
+    }
+
+    a>h2 {
+        font-size: 40px;
+        border: solid black ;
+        border-radius: 10px;
+        background-color: rgb(41, 23, 247);
+        width: 30%;
+        margin-left: 30%;
+    }
+
+    a>h2:hover{
+        background-color: rgb(89, 195, 59);
+        font-size: 50px;
+        transition: 0.2s;
+        color: black;
+    }
+
+    ul>h1 {
+        color: black;
+        font-size: 50px;
+    }
+    @media all and (max-width:1000px) {
+        p{
+            font-size: 40px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        ul{
+            font-size: 40px;
+        }
+        
+    }
+    @media all and (max-width:800px) {
+        img{
+            height: 45vh;
+        }
+        p{
+            font-size: 35px;
+        }
+        h1 {
+            font-size: 45px;
+        }
+        ul{
+            font-size: 35px;
+        }
+     
+    }
+    @media all and (max-width:700px) {
+        a>h2{
+            font-size: 30px;
+        }
+        
+    }
+    @media all and (max-width:540px) {
+        img{
+            height: 35vh;
+        }
+        p{
+            font-size: 30px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        ul{
+            font-size: 30px;
+        }
+        a>h2{
+            font-size: 25px;
+        }
+        
+    }
+
+    @media all and (max-width:480px) {
+        img{
+            height: 25vh;
+        }
+        p{
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        ul{
+            font-size: 20px;
+        }
+        a>h2{
+            font-size: 15px;
+        }
+        
+    }
+    @media all and (max-width:340px) {
+        img{
+            height: 20vh;
+        }
+        p{
+            font-size: 25px;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        ul{
+            font-size: 15px;
+        }
+        a>h2{
+            font-size: 10px;
+        }
+        
+    }
+
+</style>
+
+{% endblock css %}
+
+{% block body %}
+
+<img src="/static/django full-stack.jpg" alt="Connection Problem">
+
+<div class="detail">
+    <p>
+        Full-Stack Web development is the most growing and valuable skill in Tech world. This is the skill that is
+        widely used in Tech world. In this time most clients require to hire a full-stack web developer to develop
+        a fully functional web-application for them instead of hiring two different persons for front-end and back-end
+        development. <br> <br>
+        You are sure to get a satisfying job after you masters the skill of full-stack development. Many different
+        companies offer very high salary package
+        for the post of full-stack web developer.
+        <br><br>Keeping importance of all these factors under view, We are offering the
+    </p>
+    <h1>FULL-STACK WEB DEVELOPMENT</h1>
+    <p> course to make you grow up in the world
+        of technology.After completing this course you will be eligible to get jobs in fields like:
+        <br>
+    <ul>
+        <li>Django developer</li>
+        <li>Full-stack web Developer</li>
+        <li>Front-end developer</li>
+        <li>Back-end developer</li>
+        <li>Web Application Developer </li>
+        <li>UX designer</li>
+        <li>UI designer</li>
+        <li>Devoops Engineer</li>
+        <li>Full-Stack developer</li>
+    </ul>
+    </p>
+    <p>You are just one course away from your job of thousand dollars. Just fill up the
+        registratraion from to enroll in FULL-STACK WEB DEVELOPMENT course.
+    </p>
+
+    <ul>
+        <li>Course duraton: 3 months</li>
+        <li>Fee: USD 50/month </li>
+        <li>Live Classes</li>
+        <li>Professional Projects</li>
+        <li>Mon - Friday</li>
+    </ul>
+
+    <a href="registration">
+        <h2>Enroll now!</h2>
+    </a>
+
+    <ul class="learn">
+        <h1>What will you learn</h1> <br>
+        <li>HTML(front-end language)</li>
+        <li>CSS(front-end language)</li>
+        <li>JavaScript(front-end language)</li>
+        <li>PYTHON(Back-end langauge)</li>
+        <li>DJANGO</li>
+        <li>Using Bootstrap</li>
+        <li>Data base management</li>
+        <li>Deployment and hosting</li>
+
+    </ul>
+    
+
+
+</div>
+
+{% endblock body %}

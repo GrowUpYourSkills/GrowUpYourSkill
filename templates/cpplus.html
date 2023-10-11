@@ -1,0 +1,207 @@
+{% extends "base.html" %}
+
+{% block title %} C++ {% endblock title %}
+{% block css %}
+<style>
+    body{
+        text-align: center;
+        padding-bottom: 1%;
+    }
+
+    img{
+        padding-top: 50px;
+        width: 50%;
+        height: 50vh;
+    }
+
+    .detail{
+        background-color: rgb(211, 211, 246);
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 1%;
+    }
+
+    p{
+        font-size: 50px;
+        text-align: justify;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+        
+    }
+
+    h1{
+        font-size: 60px;
+        color: rgb(7, 181, 22);
+        padding-bottom: 1%;
+
+    }
+
+    ul{
+        text-align: left;
+        font-size: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1%;
+        color: rgb(9, 44, 221);
+    }
+
+    a>h2{
+        font-size: 40px;
+        border: solid black;
+        border-radius: 10px;
+        background-color: rgb(41, 23, 247);
+        width: 30%;
+        margin-left: 30%;
+    }
+
+    a>h2:hover{
+        background-color: rgb(89, 195, 59);
+        font-size: 50px;
+        transition: 0.2s;
+        color: black;
+    }
+
+    ul>h1 {
+        color: black;
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 60px;
+    }
+    @media all and (max-width:1000px) {
+        p{
+            font-size: 40px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        ul{
+            font-size: 40px;
+        }
+        
+    }
+    @media all and (max-width:800px) {
+        img{
+            height: 45vh;
+        }
+        p{
+            font-size: 35px;
+        }
+        h1 {
+            font-size: 45px;
+        }
+        ul{
+            font-size: 35px;
+        }
+     
+    }
+    @media all and (max-width:700px) {
+        a>h2{
+            font-size: 30px;
+        }
+        
+    }
+    @media all and (max-width:540px) {
+        img{
+            height: 35vh;
+        }
+        p{
+            font-size: 30px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        ul{
+            font-size: 30px;
+        }
+        a>h2{
+            font-size: 25px;
+        }
+        
+    }
+
+    @media all and (max-width:480px) {
+        img{
+            height: 25vh;
+        }
+        p{
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        ul{
+            font-size: 20px;
+        }
+        a>h2{
+            font-size: 15px;
+        }
+        
+    }
+    @media all and (max-width:340px) {
+        img{
+            height: 20vh;
+        }
+        p{
+            font-size: 25px;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        ul{
+            font-size: 15px;
+        }
+        a>h2{
+            font-size: 10px;
+        }
+        
+    }
+
+</style>
+
+{% endblock css %}
+
+{% block body %}
+
+<img src="/static/cplus.jpg" alt="Connection Problem">
+
+
+<div class="detail">
+    <h1>REGISTRATIONS NOT OPEN</h1>
+    <h2>Will open soon!</h2>
+    <p>
+        Fill up contact form and you will be notified via e-mail when course registration will be opened.
+    </p>
+    <!-- <p>
+        Python is one of the most growing language in the Tech industry. This is the language that is 
+        widely used in Tech world. Every second Tech company needs an employee who can work in this 
+        langaue. Python is the language that is used in developing Machine learning models,
+        AI models, developing software , in the field of Data science many other technical models.
+        <br><br>  We are offering the  </p>  <h1>PYTHON BEGGINER TO ADVANCE</h1> <p> course to make you grow up in the world
+        of technology.After completing this course you will be eligible to get jobs in fields like:
+        <br> <ul>
+            <li>Machine Learnin Engineer</li>
+            <li>AI Developer</li>
+            <li>Software Engineer</li>
+            <li>Web Application Developer </li></ul></p>  
+            <p>You are just one course away from your job of thousand dollars. Just fill up the 
+             registratraion from to enroll in PYTHON BIGGENER TO ADVACE course.
+    </p>
+    
+    <ul>
+        <li>Course duraton: 3 months</li>
+        <li>Fees: USD 45/month </li>
+        <li>Live Classes</li>
+        <li>Mon - Friday</li>
+    </ul>
+    
+    <a href="registration"><h2>Enroll now!</h2></a>
+-->
+    <a href="contact"><h2>Contact</h2></a>
+    
+      
+</div>
+
+{% endblock body %}
