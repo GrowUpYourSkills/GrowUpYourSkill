@@ -31,6 +31,9 @@ def pyton(request):
 def jango(request):
     return render(request, "jango.html")
 
+def jango(request):
+    return render(request, "janngo.html")
+
 def front(request):
     return render(request, "front.html")
 

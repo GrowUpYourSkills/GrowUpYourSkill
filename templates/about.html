@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %} About {% endblock title %}
+
+{% block css %}
+<style>
+    
+    p{
+        padding: 50px;
+        font-size: 50px;
+    }
+
+    .crs-link{
+        color: rgb(34, 0, 184);
+        text-decoration: underline;
+        font-size: 40px;
+        position: relative;
+        bottom: 200px;
+    }
+
+    img{
+        padding: 30px;
+        width: 500px;
+        height: 40vh;
+    }
+
+</style>
+{% endblock css %}
+
+{% block body %}
+
+<p>
+    This is a plateform for the people who want to step into the Tech industry.
+    Technolgy is continusly growing in every field. Tech workers are need from big organizations to
+    small business. Every company needs someone who is the expert of technolgy.
+    <br>
+    <br>
+    So, this plateform is specially designed to help you land successfully and compitaively
+    in the World of Technolgy. We are offering courses that are growing very fastly from recent
+    years. We are providing you the short courses of the technolgies that will be leading in future.
+    <br>
+    We will provide live online classes with practical and professional tarining. Our candidates 
+    will be trained to beat every challange and prove themself to be the perfect match for the 
+    jobs in tecg companies
+    <br>
+    <br>
+    Here is the list of courses we are offering:
+</p>
+<div class="python">
+    <img src="/static/python.jpg" alt="Connection problem"> <a href="pyton" class="crs-link">Python(Begginer to advance)</a>
+</div>
+
+<div class="django">
+    <img src="/static/django full-stack.jpg" alt="Connection problem"> <a href="jango" class="crs-link">Full-Stack Web development</a>
+</div>
+
+<div class="front-end">
+    <img src="/static/front-end.jpg" alt="Connection problem"> <a href="front" class="crs-link">Front-end development / Web desgining</a>
+</div>
+
+<div class="js">
+    <img src="/static/js.jpg" alt="Connection problem"> <a href="javas" class="crs-link">JavaScript (Expert level course)</a> 
+</div>
+
+<div class="css">
+    <img src="/static/css.jpg" alt="Connection problem"> <a href="csss" class="crs-link">CSS (Expert level course)</a>
+</div>
+
+<div class="cpp">
+    <img src="/static/cplus.jpg" alt="Connection problem"> <a href="cpplus" class="crs-link">C++ (Begginer to advance)</a> 
+</div>
+
+
+{% endblock body %}
