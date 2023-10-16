@@ -23,10 +23,11 @@
             align-items: center;
             justify-content: center;
         }
-
-        header>img {
-            width: 60%;
-            height: 32vh;
+        
+        .name>h1 {
+            font-size: 400%;
+            color: white;
+            text-decoration: none;
         }
 
         .navbar {
@@ -45,67 +46,31 @@
             text-decoration: none;
         }
 
-        span {
-            position: relative;
-            width: 30px;
-            height: 30px;
-            background: #ffffff;
-            margin: 0 4px;
-            border-radius: 50%;
-            box-shadow: 0 0 0 15px rgba(240, 240, 173, 0.984),
-                0 0 50px rgb(242, 241, 210),
-                0 0 100px rgb(243, 243, 229);
-            animation: animate 5s linear infinite;
-            animation-duration: calc(150s / var(--i));
-        }
-
-        span:nth-child(even) {
-            background: #f4f661;
-            box-shadow: 0 0 0 10px rgba(230, 230, 112, 0.984),
-                0 0 50px rgb(242, 241, 210),
-                0 0 100px rgb(242, 241, 210);
-        }
-
-        @keyframes animate {
-            0% {
-                transform: translateY(-25vh) scale(0.06);
-            }
-
-            100% {
-                transform: translateY(15vh) scale(0.09);
-            }
-        }
-
         @media all and (max-width: 780px) {
             header {
                 width: 100%;
                 height: 35vh;
             }
         }
-        
+
         @media all and (max-width: 750px) {
             header {
                 width: 105%;
                 height: 30vh;
             }
-            .navbar{
+
+            .navbar {
                 width: 105%;
             }
-            a{
+
+            a {
                 font-size: 30px;
             }
         }
 
         @media all and (max-width: 730px) {
-            .navbar{
+            .navbar {
                 height: 4vh;
-            }
-        }
-       
-        @media all and (max-width: 700px) {
-            header>img {
-                width: 70%;
-                height: 28vh;
             }
         }
 
@@ -113,17 +78,28 @@
             header {
                 height: 25vh;
             }
-            header>img {
-                height: 20vh;
+        }
+
+        @media all and (max-width: 620px) {
+            .name>h1 {
+                font-size: 350%;
             }
         }
+
+        @media all and (max-width: 560px) {
+            .name>h1 {
+                font-size: 300%;
+            }
+        }
+
 
         @media all and (max-width: 475px) {
             header {
                 height: 25vh;
             }
-            header>img {
-                height: 20vh;
+
+            .name>h1 {
+                font-size: 250%;
             }
         }
 
@@ -132,136 +108,86 @@
                 width: 107%;
                 height: 25vh;
             }
-            header>img {
-                width: 75%;
-            }
-            .navbar{
+
+            .navbar {
                 width: 107%;
             }
-            a{
+
+            a {
                 font-size: 25px;
             }
+
+            .name>h1 {
+                font-size: 200%;
+            }
         }
-        
+
 
         @media all and (max-width: 350px) {
             header {
                 width: 110%;
                 height: 25vh;
             }
-            .navbar{
+
+            .navbar {
                 width: 110%;
             }
-            header>img {
-                width: 77%;
+
+            header>.name>h1 {
+                font-size: 30px;
             }
-            a{
+
+            a {
                 font-size: 21px;
             }
         }
-        
+
         @media all and (max-width: 300px) {
-            
-            header>img {
-                width: 80%;
-            }
-            a{
+
+            a {
                 font-size: 18px;
             }
         }
-        
+
         @media all and (max-width: 250px) {
             header {
                 width: 115%;
                 height: 23vh;
-            }   
-            header>img {
-                width: 80%;
-                height: 15vh;
             }
-            .navbar{
+
+            .navbar {
                 width: 115%;
             }
-            a{
+
+            a {
                 font-size: 15px;
             }
+
+            .name>h1 {
+                font-size: 150%;
+            }
         }
+
         @media all and (max-width: 200px) {
             header {
                 width: 115%;
                 height: 23vh;
-            }   
-            header>img {
-                width: 100%;
-                height: 15vh;
             }
+
+            .name>h1 {
+                font-size: 120%;
+            }
+
         }
-
-        
-
-
     </style>
 
 </head>
 
 <body>
     <header>
-        <span style="--i:11"></span>
-        <span style="--i:1"></span>
-        <span style="--i:5"></span>
-        <span style="--i:13"></span>
-        <span style="--i:18"></span>
-        <span style="--i:15"></span>
-        <span style="--i:3"></span>
-        <span style="--i:7"></span>
-        <span style="--i:12"></span>
-        <span style="--i:16"></span>
-        <span style="--i:9"></span>
-        <span style="--i:2"></span>
-        <span style="--i:14"></span>
-        <span style="--i:17"></span>
-        <span style="--i:4"></span>
-        <span style="--i:19"></span>
-        <span style="--i:25"></span>
-        <span style="--i:14"></span>
-        <span style="--i:24"></span>
-        <span style="--i:23"></span>
-        <span style="--i:22"></span>
-        <span style="--i:27"></span>
-        <span style="--i:19"></span>
-        <span style="--i:24"></span>
-        <span style="--i:28"></span>
-        <span style="--i:29"></span>
-
-
-        <img src="/static/guys pic.png" alt="">
-
-        <span style="--i:5"></span>
-        <span style="--i:15"></span>
-        <span style="--i:20"></span>
-        <span style="--i:18"></span>
-        <span style="--i:1"></span>
-        <span style="--i:25"></span>
-        <span style="--i:3"></span>
-        <span style="--i:7"></span>
-        <span style="--i:12"></span>
-        <span style="--i:16"></span>
-        <span style="--i:9"></span>
-        <span style="--i:2"></span>
-        <span style="--i:17"></span>
-        <span style="--i:4"></span>
-        <span style="--i:22"></span>
-        <span style="--i:16"></span>
-        <span style="--i:2"></span>
-        <span style="--i:17"></span>
-        <span style="--i:4"></span>
-        <span style="--i:22"></span>
-        <span style="--i:16"></span>
-        <span style="--i:27"></span>
-        <span style="--i:19"></span>
-        <span style="--i:24"></span>
-        <span style="--i:28"></span>
-        <span style="--i:29"></span>
+        <div class="name">
+            <h1>GrowUpYourSkills</h1>
+        </div>
     </header>
 
     <div class="navbar">
