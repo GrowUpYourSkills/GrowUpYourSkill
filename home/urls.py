@@ -19,8 +19,6 @@ urlpatterns = [
 
     path("django", views.jango, name = 'jango' ),
 
-    path("django", views.jango, name = 'janngo' ),
-
     path("front", views.front, name = 'front' ),
 
     path("java", views.javas, name = 'javas' ),
