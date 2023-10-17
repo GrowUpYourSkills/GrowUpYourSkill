@@ -23,11 +23,10 @@
             align-items: center;
             justify-content: center;
         }
-        
-        .name>h1 {
-            font-size: 400%;
-            color: white;
-            text-decoration: none;
+
+        header>img {
+            width: 60%;
+            height: 32vh;
         }
 
         .navbar {
@@ -52,25 +51,30 @@
                 height: 35vh;
             }
         }
-
+        
         @media all and (max-width: 750px) {
             header {
                 width: 105%;
                 height: 30vh;
             }
-
-            .navbar {
+            .navbar{
                 width: 105%;
             }
-
-            a {
+            a{
                 font-size: 30px;
             }
         }
 
         @media all and (max-width: 730px) {
-            .navbar {
+            .navbar{
                 height: 4vh;
+            }
+        }
+       
+        @media all and (max-width: 700px) {
+            header>img {
+                width: 70%;
+                height: 28vh;
             }
         }
 
@@ -78,28 +82,17 @@
             header {
                 height: 25vh;
             }
-        }
-
-        @media all and (max-width: 620px) {
-            .name>h1 {
-                font-size: 350%;
+            header>img {
+                height: 20vh;
             }
         }
-
-        @media all and (max-width: 560px) {
-            .name>h1 {
-                font-size: 300%;
-            }
-        }
-
 
         @media all and (max-width: 475px) {
             header {
                 height: 25vh;
             }
-
-            .name>h1 {
-                font-size: 250%;
+            header>img {
+                height: 20vh;
             }
         }
 
@@ -108,86 +101,80 @@
                 width: 107%;
                 height: 25vh;
             }
-
-            .navbar {
+            header>img {
+                width: 75%;
+            }
+            .navbar{
                 width: 107%;
             }
-
-            a {
+            a{
                 font-size: 25px;
             }
-
-            .name>h1 {
-                font-size: 200%;
-            }
         }
-
+        
 
         @media all and (max-width: 350px) {
             header {
                 width: 110%;
                 height: 25vh;
             }
-
-            .navbar {
+            .navbar{
                 width: 110%;
             }
-
-            header>.name>h1 {
-                font-size: 30px;
+            header>img {
+                width: 77%;
             }
-
-            a {
+            a{
                 font-size: 21px;
             }
         }
-
+        
         @media all and (max-width: 300px) {
-
-            a {
+            
+            header>img {
+                width: 80%;
+            }
+            a{
                 font-size: 18px;
             }
         }
-
+        
         @media all and (max-width: 250px) {
             header {
                 width: 115%;
                 height: 23vh;
+            }   
+            header>img {
+                width: 80%;
+                height: 15vh;
             }
-
-            .navbar {
+            .navbar{
                 width: 115%;
             }
-
-            a {
+            a{
                 font-size: 15px;
             }
-
-            .name>h1 {
-                font-size: 150%;
-            }
         }
-
         @media all and (max-width: 200px) {
             header {
                 width: 115%;
                 height: 23vh;
+            }   
+            header>img {
+                width: 100%;
+                height: 15vh;
             }
-
-            .name>h1 {
-                font-size: 120%;
-            }
-
         }
+
     </style>
 
 </head>
 
 <body>
     <header>
-        <div class="name">
-            <h1>GrowUpYourSkills</h1>
-        </div>
+
+        <img src="/static/guys pic.png" alt="">
+
     </header>
 
     <div class="navbar">
