@@ -4,13 +4,12 @@
 
 {% block css %}
 <style>
-    
-    p{
+    p {
         padding: 50px;
         font-size: 50px;
     }
 
-    .crs-link{
+    .crs-link {
         color: rgb(34, 0, 184);
         text-decoration: underline;
         font-size: 40px;
@@ -18,12 +17,194 @@
         bottom: 200px;
     }
 
-    img{
+    img {
         padding: 30px;
         width: 500px;
         height: 40vh;
     }
 
+    @media all and (max-width : 1060px) {
+        .crs-link {
+            font-size:30px;
+        }
+        img {
+            padding: 25px;
+            width: 400px;
+            height: 30vh;
+        }
+    }
+
+    @media all and (max-width : 925px) {
+        .crs-link {
+            font-size:30px;
+        }
+        img {
+            padding: 20px;
+            width: 300px;
+            height: 20vh;
+        }
+    }
+
+    @media all and (max-width : 820px) {
+        .crs-link {
+            font-size:25px;
+        }
+        img {
+            padding: 20px;
+            width: 250px;
+            height: 20vh;
+        }
+        p{
+            font-size: 45px;
+        }
+    }
+
+    @media all and (max-width : 690px) {
+        .crs-link {
+            font-size:20px;
+        }
+        img {
+            padding: 20px;
+            width: 200px;
+            height: 15vh;
+        }
+        p{
+            font-size: 40px;
+        }
+    }
+
+    @media all and (max-width : 570px) {
+        .crs-link {
+            font-size:17px;
+        }
+        img {
+            padding: 20px;
+            width: 180px;
+            height: 15vh;
+        }
+        p{
+            font-size: 35px;
+        }
+    }
+
+    @media all and (max-width : 500px) {
+        .crs-link {
+            font-size:15px;
+            position: relative;
+            bottom: 100px;
+        }
+        img {
+            padding: 20px;
+            width: 150px;
+            height: 10vh;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+
+    @media all and (max-width : 440px) {
+        .crs-link {
+            font-size:13px;
+            position: relative;
+            bottom: 100px;
+        }
+        img {
+            padding: 20px;
+            width: 150px;
+            height: 10vh;
+        }
+    }
+
+    @media all and (max-width : 400px) {
+        .crs-link {
+            font-size:10px;
+            position: relative;
+            bottom: 100px;
+        }
+        img {
+            padding: 20px;
+            width: 150px;
+            height: 10vh;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+
+    @media all and (max-width : 350px) {
+        .crs-link {
+            font-size:10px;
+            position: relative;
+            bottom: 100px;
+        }
+        img {
+            padding: 20px;
+            width: 100px;
+            height: 8vh;
+        }
+    }
+
+    @media all and (max-width : 300px) {
+        .crs-link {
+            font-size:8px;
+            position: relative;
+            bottom: 100px;
+        }
+        img {
+            padding: 15px;
+            width: 100px;
+            height: 8vh;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+
+    @media all and (max-width : 370px) {
+        .crs-link {
+            font-size:8px;
+            position: relative;
+            bottom: 100px;
+        }
+        img {
+            padding: 15px;
+            width: 80px;
+            height: 7vh;
+        }
+    }
+
+    @media all and (max-width : 250px) {
+        .crs-link {
+            font-size:6px;
+            position: relative;
+            bottom: 100px;
+        }
+        img {
+            padding: 10px;
+            width: 60px;
+            height: 5vh;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+
+    @media all and (max-width : 200px) {
+        .crs-link {
+            font-size:5px;
+            position: relative;
+            bottom: 100px;
+        }
+        img {
+            padding: 10px;
+            width: 40px;
+            height: 5vh;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
 </style>
 {% endblock css %}
 
@@ -39,27 +220,31 @@
     in the World of Technolgy. We are offering courses that are growing very fastly from recent
     years. We are providing you the short courses of the technolgies that will be leading in future.
     <br>
-    We will provide live online classes with practical and professional tarining. Our candidates 
-    will be trained to beat every challange and prove themself to be the perfect match for the 
+    We will provide live online classes with practical and professional tarining. Our candidates
+    will be trained to beat every challange and prove themself to be the perfect match for the
     jobs in tecg companies
     <br>
     <br>
     Here is the list of courses we are offering:
 </p>
 <div class="python">
-    <img src="/static/python.jpg" alt="Connection problem"> <a href="pyton" class="crs-link">Python(Begginer to advance)</a>
+    <img src="/static/python.jpg" alt="Connection problem"> <a href="pyton" class="crs-link">Python(Begginer to
+        advance)</a>
 </div>
 
 <div class="django">
-    <img src="/static/django full-stack.jpg" alt="Connection problem"> <a href="jango" class="crs-link">Full-Stack Web development</a>
+    <img src="/static/django full-stack.jpg" alt="Connection problem"> <a href="jango" class="crs-link">Full-Stack Web
+        development</a>
 </div>
 
 <div class="front-end">
-    <img src="/static/front-end.jpg" alt="Connection problem"> <a href="front" class="crs-link">Front-end development / Web desgining</a>
+    <img src="/static/front-end.jpg" alt="Connection problem"> <a href="front" class="crs-link">Front-end development /
+        Web desgining</a>
 </div>
 
 <div class="js">
-    <img src="/static/js.jpg" alt="Connection problem"> <a href="javas" class="crs-link">JavaScript (Expert level course)</a> 
+    <img src="/static/js.jpg" alt="Connection problem"> <a href="javas" class="crs-link">JavaScript (Expert level
+        course)</a>
 </div>
 
 <div class="css">
@@ -67,7 +252,8 @@
 </div>
 
 <div class="cpp">
-    <img src="/static/cplus.jpg" alt="Connection problem"> <a href="cpplus" class="crs-link">C++ (Begginer to advance)</a> 
+    <img src="/static/cplus.jpg" alt="Connection problem"> <a href="cpplus" class="crs-link">C++ (Begginer to
+        advance)</a>
 </div>
 
 
